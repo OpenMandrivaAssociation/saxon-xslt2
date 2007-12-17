@@ -6,7 +6,6 @@ License: 	MPL
 Group: 		Publishing
 Url:		http://saxon.sourceforge.net/
 Source: 	http://prdownloads.sourceforge.net/saxon/%{name}-%{version}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-buildroot 
 BuildArch:	noarch
 
 Requires:	jre
