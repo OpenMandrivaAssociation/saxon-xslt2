@@ -1,7 +1,7 @@
 Summary:	Saxon XSLT2 Processor in Java
 Name: 		saxon-xslt2
 Version: 	7.8
-Release: 	%mkrel 4
+Release: 	%mkrel 5
 License: 	MPL
 Group: 		Publishing
 Url:		http://saxon.sourceforge.net/
