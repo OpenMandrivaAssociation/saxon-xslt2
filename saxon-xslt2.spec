@@ -50,3 +50,30 @@ chmod 555 $RPM_BUILD_ROOT/%{_prefix}/bin/saxon7batch
 %attr(755,root,root) %{_prefix}/bin/saxon7batch
 
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 7.8-5mdv2010.0
++ Revision: 433620
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 7.8-4mdv2009.0
++ Revision: 260507
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tvignaud@mandriva.com> 7.8-3mdv2009.0
++ Revision: 251957
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 7.8-1mdv2008.1
++ Revision: 126968
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import saxon-xslt2
+
+
+* Fri Jan  9 2004 Camille Begnis <camille@mandrakesoft.com> 7.8-1mdk
+- first specs
